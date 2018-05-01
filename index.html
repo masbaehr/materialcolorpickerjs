@@ -1,0 +1,12 @@
+<html>
+<input class="materialColorPickerJs" alt="icon-color" value="#ffffff" />
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="materialcolorpicker.js"></script>
+<script> 
+  $(document).ready(function () {
+    $(".materialColorPickerJs").each(function(i,e){
+      new MaterialColorPickerJS($(e)[0]);
+    });
+  });
+</script>
+</html>
