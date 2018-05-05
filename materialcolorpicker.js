@@ -1,6 +1,7 @@
 
 /**
  * A javascript color picker inspired by material design color choice
+ * @version 1.0.0
  * @requires: jQuery, data-attribute
  * @author https://github.com/masbaehr
  * @constructor
